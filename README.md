@@ -7,13 +7,15 @@ Two strategies are evaluated:
 - **Long Positions Only**: All portfolio weights are constrained to [0, 1] and sum to 1.
 - **Shorts Allowed**: Portfolio weights may be negative (i.e., allow short selling) but still sum to 1.
 
-For each portfolio, we compute:
+For each portfolio, compute:
 
 - **Expected Return**:  
-  \\( \\mu_p = \\mathbb{E}[w^\\top r] \\)
+  <img width="121" height="36" alt="image" src="https://github.com/user-attachments/assets/e8ea02e2-def5-4c16-9678-1d6d3140b7c7" />
+
 
 - **Portfolio Risk (Volatility)**:  
-  \\( \\sigma_p = \\sqrt{w^\\top \\Sigma w} \\)
+  <img width="116" height="42" alt="image" src="https://github.com/user-attachments/assets/0e3f6de8-655b-4a41-8861-1facf9d1aee4" />
+
 
 The opportunity sets for both strategies are visualized on a risk-return plot.
 
@@ -63,7 +65,7 @@ You can modify these CSV files to explore other assets or parameter assumptions.
 ## Report
 
 For a full explanation of the problem, methodology, and results, please see  
-📄 `ProgrammingAssignment2Report.pdf`.
+ `ProgrammingAssignment2Report.pdf`.
 
 ## AI Assistance Disclosure
 
